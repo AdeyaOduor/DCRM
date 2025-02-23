@@ -21,3 +21,13 @@ code .
  python3 ./djangoCrm/manage.py migrate
  python3 ./djangoCrm/manage.py createsuperuser, and enter user and p/word
  python3 ./djangoCrm/manage.py runserver
+
+
+
+
+
+
+
+
+
+https://github.com/flatplanet/Django-CRM/tree/main/dcrm
