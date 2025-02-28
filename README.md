@@ -22,6 +22,13 @@ code .
  python3 ./djangoCrm/manage.py createsuperuser, and enter user and p/word
  python3 ./djangoCrm/manage.py runserver
 
+// Git and GitHub CMDs
+git config --global user.name "Adeya david"
+git config --global user.email "adeyadavid@gmail.com"
+git config --global push.default matching
+git config --global alias.co checkout
+git init
+git commit -m "initial commit"
 
 
 
