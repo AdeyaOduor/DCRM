@@ -14,8 +14,8 @@ cd dcrm/
 python3 manage.py startapp website
 code .
 
-# Edit setings.py
-add the new app, and change sql settings
+# Edit dcrm/setings.py
+add the new app - websites under Apps, and update mysql credentials in DATABASES under settings
 
  python manage.py makemigrations
  python manage.py migrate
