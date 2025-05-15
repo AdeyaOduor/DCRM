@@ -1,5 +1,5 @@
-mkdir djandoCrm
-cd djandoCrm
+mkdir /c/dcrm
+cd /c/dcrm
 python3 -m venv crmenv
 source myenv/bin/activate 
 pip install django
