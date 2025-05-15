@@ -10,9 +10,12 @@ pip install mysql-connector-python3,
 
 django-admin startproject dcrm.
 
-cd dcrm
+cd dcrm/
 python3 manage.py startapp website
 code .
+
+# Edit setings.py
+add the new app, and change sql settings
 
  python manage.py makemigrations
  python manage.py migrate
