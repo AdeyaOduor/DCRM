@@ -7,7 +7,7 @@ pip install mysql-connector
 pip install mysql-connector-python3
 django-admin startproject djangoCrm
 
-//install mysql on local machine from official website {dev.mysql.com}
+# install mysql on local machine from official website {dev.mysql.com}
 cd djangoCrm
 python3 manage.py startapp website
 code .
@@ -22,7 +22,7 @@ code .
  python3 ./djangoCrm/manage.py createsuperuser, and enter user and p/word
  python3 ./djangoCrm/manage.py runserver
 
-// Git and GitHub CMDs
+# Git and GitHub CMDs
 git config --global user.name "Adeya david"
 git config --global user.email "adeyadavid@gmail.com"
 git config --global push.default matching
