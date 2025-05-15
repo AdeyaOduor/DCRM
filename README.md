@@ -1,15 +1,16 @@
-mkdir /c/dcrm
-cd /c/dcrm
-python3 -m venv crmenv
-source crmenv/scripts/activate 
-pip install django
+mkdir /c/dcrm,
+cd /c/dcrm,
+python3 -m venv crmenv,
+source crmenv/scripts/activate, 
+pip install django.
 
 # install mysql on local machine from official website {dev.mysql.com}
-pip install mysql-connector
-pip install mysql-connector-python3
-django-admin startproject djangoCrm
+pip install mysql-connector,
+pip install mysql-connector-python3,
 
-cd djangoCrm
+django-admin startproject dcrm.
+
+cd dcrm
 python3 manage.py startapp website
 code .
 
