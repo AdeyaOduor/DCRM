@@ -47,5 +47,13 @@ git init
 git add .
 git commit -m "initial commit"
 
-
+ python manage.py makemigrations
+ python manage.py migrate
+ python manage.py createsuperuser, and enter user and p/word
+ python manage.py runserver
+       # OR
+ python3 ./djangoCrm/manage.py makemigrations
+ python3 ./djangoCrm/manage.py migrate
+ python3 ./djangoCrm/manage.py createsuperuser, and enter user and p/word
+ python3 ./djangoCrm/manage.py runserver
 
