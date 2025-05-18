@@ -29,9 +29,13 @@ create mydb.py file (touch mydb.py in editor terminal)
  python3 ./djangoCrm/manage.py runserver
 
 # Git and GitHub CMDs
+create SSH git connection
 git config --global user.name "Adeya david"
 git config --global user.email "adeyadavid@gmail.com"
 git config --global push.default matching
 git config --global alias.co checkout
 git init
-git commit -m "initial commit"
+
+go to github, set a repository and use push command for an existing repo and refresh
+
+create website app, and url file in it, create a template folder
