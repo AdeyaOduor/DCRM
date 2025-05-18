@@ -16,6 +16,8 @@ code .
 # Edit dcrm/setings.py
 add the new app - websites under Apps, and update mysql credentials in DATABASES under settings
 
+create mydb.py file (touch mydb.py in editor terminal)
+
  python manage.py makemigrations
  python manage.py migrate
  python manage.py createsuperuser, and enter user and p/word
