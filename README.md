@@ -39,7 +39,6 @@ git config --global alias.co checkout
 go to github, set a repository and use push command for an existing repo and refresh
 
 # in editor terminal
-python3 manage.py startapp website
 add files under website
 create template folder in website and its files
 
