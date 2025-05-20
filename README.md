@@ -16,8 +16,33 @@ code .
 
 # Edit dcrm/setings.py
 add the new app - websites under Apps, and update mysql credentials in DATABASES under settings
-
-create mydb.py file (touch mydb.py in editor terminal)
+INSTALLED_APPS = [
+    ...
+    'website',
+    
+DATABASES = {
+    'default':{
+        'ENGINE': 'django.db.backend.mysql',
+        'NAME': '<db_name>',
+        'USER': <'root'>,
+        'PASSWORD': <'db_password'>,
+        'HOST': <'localhost'>,
+        'PORT': <'db_port'>
+    }
+}
+    ....
+    ALLOWED_HOSTS =[]
+    
+    LOGIN_URL = '/login/'
+    LOGIN_REDIRECT_URL = '/'
+    LOGOUT_REDIRECT_URL = '/'
+    
+    STATIC_URL = 'static/'
+    STATIC_URL = 'media/'
+    MEDIA_ROOT = BASE_DIR / 'media' # creates media folder inside the root
+]
+--------------------------------------------------------------------------------
+# create mydb.py file (touch mydb.py in editor terminal)
 
  python manage.py makemigrations
  python manage.py migrate
