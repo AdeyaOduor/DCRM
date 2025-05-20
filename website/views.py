@@ -35,7 +35,7 @@ def register_user(request):
 	if request.method == 'POST':
 		form = SignUpForm(request.POST)
 		if form.is_valid():
-			form.save()
+			form.save() # This saves the user and hashes the password
 			# Authenticate and login
 			username = form.cleaned_data['username']
 			password = form.cleaned_data['password1']
@@ -58,7 +58,7 @@ def customer_record(request, pk):
 		return render(request, 'record.html', {'customer_record':customer_record})
 	else:
 		messages.success(request, "You Must Be Logged In To View That Page...")
-		return redirect('home')
+		return redirect('home') # Redirect to a login page or success page
 
 
 
